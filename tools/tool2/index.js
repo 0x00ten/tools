@@ -1,3 +1,5 @@
-export default class Tool2 {
+class Tool2 {
   name = 'Tool 2';
 }
+
+module.exports = Tool2;

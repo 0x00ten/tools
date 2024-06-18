@@ -1,4 +1,4 @@
-import Tool1 from './tools/tool1/index.js';
-import Tool2 from './tools/tool2/index.js';
+const { Tool1 } = require('./tools/tool1/index.js');
+const { Tool2 } = require('./tools/tool2/index.js');
 
-export { Tool1, Tool2 };
+module.exports = { Tool1, Tool2 };
